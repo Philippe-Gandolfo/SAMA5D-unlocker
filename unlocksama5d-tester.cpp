@@ -1,4 +1,17 @@
-/* Return true if you sama5d device is unlockable.*/
+/* Return true if you sama5d device is unlockable
+** using one of these vulnerabilities: CVE-2020-12787, CVE-2020-12789
+** discovered by F-Secure.
+** 
+** Here a list of impacted chip: 
+    ATSAMA5D21C-CU, ATSAMA5D21C-CUR
+    ATSAMA5D22C-CN, ATSAMA5D22C-CNR, ATSAMA5D22C-CU, ATSAMA5D22C-CUR
+    ATSAMA5D23C-CN, ATSAMA5D23C-CNR, ATSAMA5D23C-CU, ATSAMA5D23C-CUR
+    ATSAMA5D24C-CU, ATSAMA5D24C-CUF, ATSAMA5D24C-CUR
+    ATSAMA5D26C-CN, ATSAMA5D26C-CNR, ATSAMA5D26C-CU, ATSAMA5D26C-CUR
+    ATSAMA5D27C-CN, ATSAMA5D27C-CNR, ATSAMA5D27C-CU, ATSAMA5D27C-CUR
+    ATSAMA5D28C-CN, ATSAMA5D28C-CNR, ATSAMA5D28C-CU, ATSAMA5D28C-CUR
+    ATSAMA5D27C-CNVAO, ATSAMA5D27C-CNRVAO
+*/
 
 int Sama5dUnlock(int var_0, bool var_1, int var_2, bool var_3, bool var_4, int var_5, 
     signed char var_6, short var_7, int var_8, unsigned char var_9, unsigned char var_10, 
